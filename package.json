@@ -29,7 +29,8 @@
     "storybook:build": "build-storybook -c .storybook -o docs",
     "test": "cross-env NODE_ENV=test jest",
     "test:coverage": "npm run test -- --coverage",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
